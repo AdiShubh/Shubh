@@ -7,7 +7,7 @@ const ProjectCard = ({ project }) => {
       <img
         src={project.image}
         alt={project.name}
-        className="w-full h-60 object-fill rounded-2xl"
+        className="w-full h-60 object-fill rounded-2xl border border-gray-200"
       />
       <h1 className="text-2xl text-center my-2">{project.name}</h1>
       <div className="flex flex-wrap justify-center gap-4 my-3">
@@ -22,7 +22,10 @@ const ProjectCard = ({ project }) => {
         {project.description}
       </p> */}
       <div className="flex justify-center gap-8">
-        <button className=" border-2 border-yellow-300 rounded-3xl   hover:bg-yellow-300 hover:text-white hover:font-semibold text-gray-700 px-4 py-2 w-40  mt-4">
+        <button
+          onClick={() => window.open(project.link, "_blank")}
+          className=" border-2 border-yellow-300 rounded-3xl   hover:bg-yellow-300 hover:text-white hover:font-semibold text-gray-700 px-4 py-2 w-40  mt-4"
+        >
           Live Demo
         </button>
         <button className="border-2 border-yellow-300 hover:bg-yellow-300 hover:text-white hover:font-semibold text-gray-700 px-4 py-2 w-40  mt-4 rounded-3xl">

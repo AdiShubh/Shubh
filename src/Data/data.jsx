@@ -1,3 +1,6 @@
+export const resumeURL =
+  "https://drive.google.com/file/d/1X2tpGyJwzBroDRjF8AQetgOcVRTZWEAd/view?usp=drive_link";
+
 export const Skills = [
   {
     name: "HTML",
@@ -53,54 +56,80 @@ export const projects = [
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     image:
-      "https://res.cloudinary.com/myblogs/image/upload/v1709273900/mytshirtstore_kwqvhu.jpg",
+      "https://res.cloudinary.com/myblogs/image/upload/v1732471195/Foodeo_dc951a.png",
     link: "https://foodeo.netlify.app/",
     tech: [
       {
-        name: "React",
+        name: "React JS",
         icon: "https://res.cloudinary.com/myblogs/image/upload/v1729328002/icons/reactjs_wysoiz.svg",
       },
       {
-        name: "JavaScript",
-        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729328001/icons/652581_code_command_develop_javascript_language_icon_dhnlyy.svg",
+        name: "Tailwind CSS",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729329628/icons/tailwind-removebg-preview_irq1it.png",
+      },
+      {
+        name: "Clerk Auth",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729597023/download__1_-removebg-preview_amzb5k.png",
+      },
+      {
+        name: "Zustand",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729597287/download__2_-removebg-preview_ctue7j.png",
       },
     ],
   },
   {
     id: "2",
-    name: "ParathCenter",
+    name: "Personal Portfolio",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, vero voluptates rerum quae in similique consequuntur culpa itaque quis ducimus.",
 
     image:
-      "https://res.cloudinary.com/myblogs/image/upload/v1709273900/mytshirtstore_kwqvhu.jpg",
-    link: "https://foodeo.netlify.app/",
+      "https://res.cloudinary.com/myblogs/image/upload/v1732471420/Shubham-11-24-2024_11_33_PM_zjwdz1.png",
+    link: "https://www.shubhamchourasia.in",
     tech: [
       {
         name: "React",
         icon: "https://res.cloudinary.com/myblogs/image/upload/v1729328002/icons/reactjs_wysoiz.svg",
       },
       {
-        name: "JavaScript",
-        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729328001/icons/652581_code_command_develop_javascript_language_icon_dhnlyy.svg",
+        name: "Tailwind CSS",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729329628/icons/tailwind-removebg-preview_irq1it.png",
       },
     ],
   },
   {
     id: "3",
-    name: "Maggie",
+    name: "Material UI Landing Page",
     description: "Food Delivery App",
     image:
-      "https://res.cloudinary.com/myblogs/image/upload/v1709273900/mytshirtstore_kwqvhu.jpg",
-    link: "https://foodeo.netlify.app/",
+      "https://res.cloudinary.com/myblogs/image/upload/v1732471582/Project-11-24-2024_11_35_PM_jmodgn.png",
+    link: "https://materiallandingpage.netlify.app/",
     tech: [
       {
         name: "React",
         icon: "https://res.cloudinary.com/myblogs/image/upload/v1729328002/icons/reactjs_wysoiz.svg",
       },
       {
-        name: "JavaScript",
-        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729328001/icons/652581_code_command_develop_javascript_language_icon_dhnlyy.svg",
+        name: "Material UI",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729597572/material-ui_lzk5nf.svg",
+      },
+    ],
+  },
+  {
+    id: "3",
+    name: "Portfolio 02",
+    description: "Food Delivery App",
+    image:
+      "https://res.cloudinary.com/myblogs/image/upload/v1732471583/Portfolio-11-24-2024_11_36_PM_wgc7gk.png",
+    link: "",
+    tech: [
+      {
+        name: "React",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729328002/icons/reactjs_wysoiz.svg",
+      },
+      {
+        name: "Material UI",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729597572/material-ui_lzk5nf.svg",
       },
     ],
   },
@@ -110,7 +139,7 @@ export const experienceElements = [
   {
     id: 1,
     title: "Frontend React Developer",
-    company: "Nissar India",
+    company: "Nishar India",
     location: "Raipur,Chhattisgarh",
     description:
       "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",

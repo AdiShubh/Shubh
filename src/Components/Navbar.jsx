@@ -27,12 +27,12 @@ const Navbar = () => {
     <nav
       className={`  ${
         isScrolled
-          ? "fixed z-20 top-0  left-0 right-0 shadow-lg opacity-90  "
+          ? "sticky z-20 top-0  left-0 right-0 shadow-lg opacity-90  "
           : "relative"
       }  w-full mx-auto  bg-gray-100     text-gray-800 px-4 py-8  `}
     >
       <div className="container mx-auto text-2xl   flex justify-between items-center">
-        <div className="text-xl font-bold md:ml-20">
+        <div className="text-xl font-bold md:ml-20 ">
           <ScrollLink to="hero" className="text-3xl">
             Shubham
           </ScrollLink>
