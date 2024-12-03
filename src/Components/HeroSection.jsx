@@ -1,5 +1,5 @@
 import React from "react";
-import ParticleBackground from "./Particle/ParticleBackground";
+
 import Typewriter from "typewriter-effect";
 import { resumeURL } from "../Data/data";
 import { useNavigate } from "react-router-dom";
