@@ -1,4 +1,6 @@
 import React from "react";
+import IconCloud from "@/components/ui/icon-cloud";
+import { slugs } from "./../Data/IconSlugs";
 
 import Typewriter from "typewriter-effect";
 import { resumeURL } from "../Data/data";
@@ -16,7 +18,8 @@ const HeroSection = () => {
               <h1 className="text-3xl font-semibold mb-2 text-gray-600">
                 Hi there, I'm{" "}
               </h1>
-              <p className="text-6xl text-gray-700 font-semibold mb-4">
+
+              <p className="text-6xl  font-semibold mb-4">
                 <Typewriter
                   options={{
                     strings: ["Shubham Chourasia"],
@@ -27,12 +30,13 @@ const HeroSection = () => {
                 />
               </p>
 
-              <p className="text-2xl mt-2 mb-2 text-gray-500">
-                A passionate{" "}
-                <span className="text-yellow-400 font-semibold">
+              <p className=" text-2xl mt-2  mb-2 text-gray-500">
+                A passionate
+                <span className=" text-yellow-400 text-2xl mx-2 font-semibold">
                   Front End React Developer
-                </span>{" "}
-                with a focus on creating beautiful and user-friendly websites.
+                </span>
+                with a focus on creating beautiful and user-friendly
+                web-applications.
               </p>
               <a
                 href={resumeURL}
@@ -44,11 +48,12 @@ const HeroSection = () => {
               </a>
             </div>
             <div className="md:mr-8 mx-auto  md:w-[40%]   ">
-              <img
+              {/* <img
                 src="profileimg02.png"
                 alt="Your Image"
                 className="rounded-[30%_70%_70%_30%/_30%_30%_70%_70%] border-4  w-[87%]  bg-yellow-200 z-50   border-yellow-500"
-              />
+              /> */}
+              <IconCloud iconSlugs={slugs} />
             </div>
           </div>
         </div>

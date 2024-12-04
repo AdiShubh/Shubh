@@ -7,6 +7,7 @@ import EducationSection from "./Components/EducationSection";
 import ContactSection from "./Components/ContactSection";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import NeonCursor from "./Components/ui/NeonCursor";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       {/* <EducationSection /> */}
       <ContactSection />
       <Footer />
+      <NeonCursor />
     </>
   );
 }
