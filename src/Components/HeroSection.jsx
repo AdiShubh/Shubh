@@ -1,5 +1,5 @@
 import React from "react";
-import IconCloud from "@/components/ui/icon-cloud";
+import IconCloud from "./ui/icon-cloud";
 import { slugs } from "./../Data/IconSlugs";
 
 import Typewriter from "typewriter-effect";

@@ -1,11 +1,13 @@
 import React from "react";
 
 const SkillCard = ({ skills }) => {
-  console.log(skills);
   return (
     <>
       {skills.map((skill, index) => (
-        <div className="flex flex-col items-center   border border-gray-500 gap-2 py-4 px-8 rounded-lg  hover:bg-gray-200 transition duration-300">
+        <div
+          key={index}
+          className="flex flex-col items-center   border border-gray-500 gap-2 py-4 px-8 rounded-lg  hover:bg-gray-200 transition duration-300"
+        >
           <img
             src={skill.icon}
             alt="test"

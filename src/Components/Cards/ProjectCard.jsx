@@ -1,7 +1,6 @@
 import React from "react";
 
 const ProjectCard = ({ project }) => {
-  console.log(project);
   return (
     <div className=" p-10 rounded-3xl bg-gray-50 mb-10  border-2 border-gray-200">
       <img

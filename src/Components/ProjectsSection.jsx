@@ -3,7 +3,6 @@ import { projects } from "../Data/data";
 import ProjectCard from "./Cards/ProjectCard";
 
 const ProjectsSection = () => {
-  console.log("myProjectsfromData", projects);
   return (
     <section id="projects" className="py-5">
       <div className="container mx-auto  ">
