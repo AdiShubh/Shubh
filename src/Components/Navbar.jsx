@@ -121,6 +121,14 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
+  const navLinks = [
+    { label: "Skills", to: "skills" },
+    { label: "Projects", to: "projects" },
+
+    { label: "Experience", to: "experience" },
+    { label: "Contact", to: "contact" },
+  ];
+
   const handleScroll = () => {
     const scrollY = window.scrollY; // Get current vertical scroll position
     if (scrollY > 50) {
@@ -149,9 +157,9 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo Section */}
-        <div className="text-2xl md:ml-20">
+        <div className=" md:ml-20">
           <ScrollLink to="hero" smooth={true}>
-            <p className="font-script text-5xl text-yellow-500 font-medium">
+            <p className="font-script text-6xl text-yellow-500 font-medium">
               Shubham
             </p>
           </ScrollLink>
@@ -199,9 +207,9 @@ const Navbar = () => {
         <ul
           className={`${
             isOpen ? "block" : "hidden"
-          } absolute top-full left-0 w-full bg-gray-100 md:static md:w-auto md:flex md:space-x-8 md:items-center`}
+          } absolute top-full left-0 w-full bg-gray-100 md:static md:w-auto md:flex  md:space-x-8 md:items-center`}
         >
-          <li className="border-b border-gray-300 md:border-none">
+          {/* <li className="border-b border-gray-300 md:border-none text-center ">
             <ScrollLink
               to="projects"
               className="block px-4 py-2 hover:text-yellow-500 hover:cursor-pointer"
@@ -211,7 +219,7 @@ const Navbar = () => {
               Projects
             </ScrollLink>
           </li>
-          <li className="border-b border-gray-300 md:border-none">
+          <li className="border-b border-gray-300 text-center md:border-none">
             <ScrollLink
               to="skills"
               className="block px-4 py-2 hover:text-yellow-500 hover:cursor-pointer"
@@ -221,7 +229,7 @@ const Navbar = () => {
               Skills
             </ScrollLink>
           </li>
-          <li className="border-b border-gray-300 md:border-none">
+          <li className="border-b border-gray-300 text-center md:border-none">
             <ScrollLink
               to="experience"
               className="block px-4 py-2 hover:text-yellow-500 hover:cursor-pointer"
@@ -231,7 +239,7 @@ const Navbar = () => {
               Experience
             </ScrollLink>
           </li>
-          <li className="border-b border-gray-300 md:border-none">
+          <li className="border-b border-gray-300 text-center md:border-none">
             <ScrollLink
               to="contact"
               className="block px-4 py-2 hover:text-yellow-500 hover:cursor-pointer"
@@ -240,7 +248,22 @@ const Navbar = () => {
             >
               Contact
             </ScrollLink>
-          </li>
+          </li> */}
+          {navLinks.map((link, index) => (
+            <li
+              key={index}
+              className="border-b border-gray-300 text-center md:border-none"
+            >
+              <ScrollLink
+                to={link.to}
+                smooth={true}
+                className="block px-4 py-2 text-xl hover:text-yellow-500 hover:cursor-pointer"
+                onClick={() => setIsOpen(false)}
+              >
+                {link.label}
+              </ScrollLink>
+            </li>
+          ))}
         </ul>
       </div>
     </nav>

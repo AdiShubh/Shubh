@@ -8,7 +8,7 @@ const ContactSection = () => {
       <div className="container mx-auto px-4">
         <p className=" text-center text-2xl">Get in Touch</p>
         <h2 className="text-5xl font-semibold text-center mb-8">Contact Me</h2>
-        <div className=" w-full mx-auto flex flex-col md:flex-row items-center justify-center p-8 gap-8 rounded-xl  border-2 border-gray-400">
+        <div className=" w-full md:w-fit mx-auto flex flex-col md:flex-row items-center justify-center p-8 gap-8 rounded-xl  border-2 border-gray-400">
           <div className=" flex justify-center  items-center gap-2  ">
             <AiTwotoneMail className="text-2xl" />
             <span className="text-lg  md:text-xl  text-gray-700">
