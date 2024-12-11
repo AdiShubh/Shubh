@@ -1,5 +1,5 @@
 export const resumeURL =
-  "https://drive.google.com/file/d/1X2tpGyJwzBroDRjF8AQetgOcVRTZWEAd/view?usp=drive_link";
+  "https://drive.google.com/file/d/1eS_rHuIahPR45DtWOMnQOgnz5YtnwijT/view?usp=drive_link";
 
 export const Skills = [
   {
