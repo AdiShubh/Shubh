@@ -19,7 +19,7 @@ const HeroSection = () => {
                 Hi there, I'm{" "}
               </h1>
 
-              <p className="text-6xl  font-semibold mb-4">
+              <p className="text-6xl text-gray-700  font-semibold mb-4">
                 <Typewriter
                   options={{
                     strings: ["Shubham Chourasia"],
