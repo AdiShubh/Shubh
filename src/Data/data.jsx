@@ -19,6 +19,10 @@ export const Skills = [
     icon: "https://res.cloudinary.com/myblogs/image/upload/v1729328001/icons/652581_code_command_develop_javascript_language_icon_dhnlyy.svg",
   },
   {
+    name: "TypeScript",
+    icon: "https://res.cloudinary.com/myblogs/image/upload/v1734089393/typescript-icon_ycwh5c.svg",
+  },
+  {
     name: "React Js",
     icon: "https://res.cloudinary.com/myblogs/image/upload/v1729328002/icons/reactjs_wysoiz.svg",
   },
