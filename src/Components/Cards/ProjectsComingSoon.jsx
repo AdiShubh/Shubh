@@ -3,14 +3,14 @@
 const ProjectsComingSoon =()=> {
 
     return (
-        <div className=" p-10 rounded-3xl bg-gray-50 mb-10  border-2 border-gray-200">
+        <div className=" p-10 rounded-3xl bg-gray-50 mb-10  border-2 border-yellow-400">
             <img
                 src={"https://res.cloudinary.com/myblogs/image/upload/v1734457860/rb_5070_l1cllc.png"}
                 alt={"comingSoonImage"}
                 className="w-full h-60 object-fit rounded-2xl border border-gray-200"
             />
 
-            <h1 className="text-2xl text-center my-2 mb-20 text-wrap ">More Projects Coming Soon......</h1>
+            <h1 className="text-2xl text-yellow-500 text-center my-2 mb-20 text-wrap ">More Projects Coming Soon......</h1>
 
             {/*<div className="flex flex-wrap justify-center gap-4 my-3">*/}
             {/*    {project.tech.map((tag, index) => (*/}
