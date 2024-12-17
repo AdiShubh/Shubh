@@ -1,4 +1,5 @@
-import React from "react";
+
+
 
 const ProjectCard = ({ project }) => {
   return (
@@ -6,7 +7,7 @@ const ProjectCard = ({ project }) => {
       <img
         src={project.image}
         alt={project.name}
-        className="w-full h-60 object-fill rounded-2xl border border-gray-200"
+        className="w-full h-60 object-fit rounded-2xl border border-gray-200"
       />
       <h1 className="text-2xl text-center my-2">{project.name}</h1>
       <div className="flex flex-wrap justify-center gap-4 my-3">

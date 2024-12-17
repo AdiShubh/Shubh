@@ -1,6 +1,7 @@
 import React from "react";
 import { projects } from "../Data/data";
 import ProjectCard from "./Cards/ProjectCard";
+import ProjectsComingSoon  from "@/Components/Cards/ProjectsComingSoon.jsx";
 
 const ProjectsSection = () => {
   return (
@@ -10,12 +11,13 @@ const ProjectsSection = () => {
         <h2 className="text-5xl font-semibold text-center mb-8">Projects</h2>
 
         {/* Flex container to hold project cards */}
-        <div className=" flex flex-col md:flex-row md:flex-wrap justify-start gap-4    ">
+        <div className=" flex flex-col md:flex-row md:flex-wrap  md:gap-4    ">
           {projects.map((project, index) => (
-            <div className=" w-11/12 md:w-[30%] mx-auto">
+            <div className=" w-11/12 md:w-[30%] mx-auto ">
               <ProjectCard key={index} project={project} />
             </div>
           ))}
+            <div className=" w-11/12 md:w-[30%] mx-auto "> <ProjectsComingSoon/></div>
         </div>
       </div>
     </section>

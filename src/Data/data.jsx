@@ -89,7 +89,7 @@ export const projects = [
 
     image:
       "https://res.cloudinary.com/myblogs/image/upload/v1732471420/Shubham-11-24-2024_11_33_PM_zjwdz1.png",
-    link: "https://www.shubhamchourasia.in",
+    link: "https://aadishubhportfolio.netlify.app/",
     tech: [
       {
         name: "React",
@@ -120,12 +120,13 @@ export const projects = [
     ],
   },
   {
-    id: "3",
+
+    id: "4",
     name: "Portfolio 02",
     description: "Food Delivery App",
     image:
-      "https://res.cloudinary.com/myblogs/image/upload/v1732471583/Portfolio-11-24-2024_11_36_PM_wgc7gk.png",
-    link: "",
+      "https://res.cloudinary.com/myblogs/image/upload/v1734462864/Portfolio-12-18-2024_12_43_AM_v9kwam.png",
+    link: "https://shubhamchourasiaportfolio.netlify.app/",
     tech: [
       {
         name: "React",
@@ -137,6 +138,47 @@ export const projects = [
       },
     ],
   },
+  {
+    id: "5",
+    name: "My T-Shirt Store",
+    description: "My T-Shirt Store",
+    image:
+      "https://res.cloudinary.com/myblogs/image/upload/v1734452034/MyTshirtStore-12-17-2024_09_43_PM_bjjurm.png",
+    link: "https://my-tshirt-store.vercel.app/",
+    tech: [
+      {
+        name: "React",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729328002/icons/reactjs_wysoiz.svg",
+      },
+      {
+        name: "Tailwind CSS",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729329628/icons/tailwind-removebg-preview_irq1it.png",
+      },
+      {
+        name: "Next JS",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729329653/icons/nextjs_vrywtf.png",
+      },
+    ],
+  },
+  // {
+  //
+  //   id: "6",
+  //   name: "More Projects coming !",
+  //   description: "Food Delivery App",
+  //   image:
+  //     "https://res.cloudinary.com/myblogs/image/upload/v1734457860/rb_5070_l1cllc.png",
+  //   link: "",
+  //   tech: [
+  //     {
+  //       name: "React",
+  //       icon: "https://res.cloudinary.com/myblogs/image/upload/v1729328002/icons/reactjs_wysoiz.svg",
+  //     },
+  //     {
+  //       name: "Material UI",
+  //       icon: "https://res.cloudinary.com/myblogs/image/upload/v1729597572/material-ui_lzk5nf.svg",
+  //     },
+  //   ],
+  // },
 ];
 
 export const experienceElements = [
