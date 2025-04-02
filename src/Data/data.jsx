@@ -120,7 +120,6 @@ export const projects = [
     ],
   },
   {
-
     id: "4",
     name: "Portfolio 02",
     description: "Food Delivery App",
@@ -190,7 +189,7 @@ export const experienceElements = [
     description:
       "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
 
-    date: "August 2023 - present",
+    date: "July 2023 - present",
     icon: "https://res.cloudinary.com/myblogs/image/upload/v1712663805/NisharIndia_bvluzp.png",
   },
   {
