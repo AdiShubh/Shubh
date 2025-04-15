@@ -1,5 +1,5 @@
 export const resumeURL =
-  "https://drive.google.com/file/d/1eS_rHuIahPR45DtWOMnQOgnz5YtnwijT/view?usp=drive_link";
+  "https://drive.google.com/file/d/1v3XuIsay_itumtfVEmSySyKnSF56kNb7/view?usp=sharing";
 
 export const Skills = [
   {
@@ -14,6 +14,11 @@ export const Skills = [
     name: "Tailwind CSS",
     icon: "https://res.cloudinary.com/myblogs/image/upload/v1729329628/icons/tailwind-removebg-preview_irq1it.png",
   },
+
+  {
+    name: "React Js",
+    icon: "https://res.cloudinary.com/myblogs/image/upload/v1729328002/icons/reactjs_wysoiz.svg",
+  },
   {
     name: "JavaScript",
     icon: "https://res.cloudinary.com/myblogs/image/upload/v1729328001/icons/652581_code_command_develop_javascript_language_icon_dhnlyy.svg",
@@ -22,12 +27,9 @@ export const Skills = [
     name: "TypeScript",
     icon: "https://res.cloudinary.com/myblogs/image/upload/v1734089393/typescript-icon_ycwh5c.svg",
   },
+
   {
-    name: "React Js",
-    icon: "https://res.cloudinary.com/myblogs/image/upload/v1729328002/icons/reactjs_wysoiz.svg",
-  },
-  {
-    name: "Redux",
+    name: "Redux Toolkit",
     icon: "https://res.cloudinary.com/myblogs/image/upload/v1729329800/icons/redux.492ed7d54dd2352c5786_o1azfn.png",
   },
   {
@@ -48,14 +50,62 @@ export const Skills = [
     icon: "https://res.cloudinary.com/myblogs/image/upload/v1729494042/logo_scd1ug.svg",
   },
   {
-    name: " Styled Components",
-    icon: "https://res.cloudinary.com/myblogs/image/upload/v1729502973/bg_f8f8f8-flat_750x_075_f-pad_750x1000_f8f8f8.u2-removebg-preview_dzu3pe.png",
+    name: "Mongo DB",
+    icon: "https://res.cloudinary.com/myblogs/image/upload/v1744720899/download-removebg-preview-removebg-preview_jvrgdm.png",
+  },
+  {
+    name: "Express JS",
+    icon: "https://res.cloudinary.com/myblogs/image/upload/v1744720354/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo-removebg-preview_yltwzy.png",
+  },
+  {
+    name: "Node JS",
+    icon: "https://res.cloudinary.com/myblogs/image/upload/v1744720354/Node.js-removebg-preview_odg7rn.png",
   },
 ];
 
 export const projects = [
   {
     id: "1",
+    name: "TechInfuse",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    image:
+      "https://res.cloudinary.com/myblogs/image/upload/v1744720987/TechInfuse_re3qry.png",
+    link: "",
+    tech: [
+      {
+        name: "React JS",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729328002/icons/reactjs_wysoiz.svg",
+      },
+      {
+        name: "Tailwind CSS",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729329628/icons/tailwind-removebg-preview_irq1it.png",
+      },
+      {
+        name: "Mongo DB",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1744721532/icons8-mongodb-96_q8vvlq.png",
+      },
+      {
+        name: "Express JS",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1744720354/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo-removebg-preview_yltwzy.png",
+      },
+      {
+        name: "Redux Toolkit Query",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729329800/icons/redux.492ed7d54dd2352c5786_o1azfn.png",
+      },
+
+      {
+        name: "JWT",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1744721458/jwt-flower_xq6sb0.webp",
+      },
+      {
+        name: "Daisy UI",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1744721822/daisyui-logo-png_seeklogo-554509-removebg-preview_ltsuh9.png",
+      },
+    ],
+  },
+  {
+    id: "2",
     name: "Foodeo",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -71,18 +121,27 @@ export const projects = [
         name: "Tailwind CSS",
         icon: "https://res.cloudinary.com/myblogs/image/upload/v1729329628/icons/tailwind-removebg-preview_irq1it.png",
       },
-      {
-        name: "Clerk Auth",
-        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729597023/download__1_-removebg-preview_amzb5k.png",
-      },
+
       {
         name: "Zustand",
         icon: "https://res.cloudinary.com/myblogs/image/upload/v1729597287/download__2_-removebg-preview_ctue7j.png",
       },
+      {
+        name: "Mongo DB",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1744721532/icons8-mongodb-96_q8vvlq.png",
+      },
+      {
+        name: "Express JS",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1744720354/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo-removebg-preview_yltwzy.png",
+      },
+      {
+        name: "JWT",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1744721458/jwt-flower_xq6sb0.webp",
+      },
     ],
   },
   {
-    id: "2",
+    id: "3",
     name: "Personal Portfolio",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, vero voluptates rerum quae in similique consequuntur culpa itaque quis ducimus.",
@@ -102,7 +161,7 @@ export const projects = [
     ],
   },
   {
-    id: "3",
+    id: "4",
     name: "Material UI Landing Page",
     description: "Food Delivery App",
     image:
@@ -120,7 +179,7 @@ export const projects = [
     ],
   },
   {
-    id: "4",
+    id: "5",
     name: "Portfolio 02",
     description: "Food Delivery App",
     image:
@@ -137,44 +196,25 @@ export const projects = [
       },
     ],
   },
-  {
-    id: "5",
-    name: "My T-Shirt Store",
-    description: "My T-Shirt Store",
-    image:
-      "https://res.cloudinary.com/myblogs/image/upload/v1734452034/MyTshirtStore-12-17-2024_09_43_PM_bjjurm.png",
-    link: "https://my-tshirt-store.vercel.app/",
-    tech: [
-      {
-        name: "React",
-        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729328002/icons/reactjs_wysoiz.svg",
-      },
-      {
-        name: "Tailwind CSS",
-        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729329628/icons/tailwind-removebg-preview_irq1it.png",
-      },
-      {
-        name: "Next JS",
-        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729329653/icons/nextjs_vrywtf.png",
-      },
-    ],
-  },
   // {
-  //
-  //   id: "6",
-  //   name: "More Projects coming !",
-  //   description: "Food Delivery App",
+  //   id: "5",
+  //   name: "My T-Shirt Store",
+  //   description: "My T-Shirt Store",
   //   image:
-  //     "https://res.cloudinary.com/myblogs/image/upload/v1734457860/rb_5070_l1cllc.png",
-  //   link: "",
+  //     "https://res.cloudinary.com/myblogs/image/upload/v1734452034/MyTshirtStore-12-17-2024_09_43_PM_bjjurm.png",
+  //   link: "https://my-tshirt-store.vercel.app/",
   //   tech: [
   //     {
   //       name: "React",
   //       icon: "https://res.cloudinary.com/myblogs/image/upload/v1729328002/icons/reactjs_wysoiz.svg",
   //     },
   //     {
-  //       name: "Material UI",
-  //       icon: "https://res.cloudinary.com/myblogs/image/upload/v1729597572/material-ui_lzk5nf.svg",
+  //       name: "Tailwind CSS",
+  //       icon: "https://res.cloudinary.com/myblogs/image/upload/v1729329628/icons/tailwind-removebg-preview_irq1it.png",
+  //     },
+  //     {
+  //       name: "Next JS",
+  //       icon: "https://res.cloudinary.com/myblogs/image/upload/v1729329653/icons/nextjs_vrywtf.png",
   //     },
   //   ],
   // },

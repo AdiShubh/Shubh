@@ -33,7 +33,7 @@ const HeroSection = () => {
               <p className=" text-2xl mt-2  mb-2 text-gray-500">
                 A passionate
                 <span className=" text-yellow-400 text-2xl mx-2 font-semibold">
-                  Front End React Developer
+                  Web Developer
                 </span>
                 with a focus on creating beautiful and user-friendly
                 web-applications.

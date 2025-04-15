@@ -1,7 +1,7 @@
 import React from "react";
 import { projects } from "../Data/data";
 import ProjectCard from "./Cards/ProjectCard";
-import ProjectsComingSoon  from "@/Components/Cards/ProjectsComingSoon.jsx";
+import ProjectsComingSoon from "@/Components/Cards/ProjectsComingSoon.jsx";
 
 const ProjectsSection = () => {
   return (
@@ -17,7 +17,10 @@ const ProjectsSection = () => {
               <ProjectCard key={index} project={project} />
             </div>
           ))}
-            <div className=" w-11/12 md:w-[30%] mx-auto "> <ProjectsComingSoon/></div>
+          <div className=" w-11/12 md:w-[30%] mx-auto ">
+            {" "}
+            <ProjectsComingSoon />
+          </div>
         </div>
       </div>
     </section>
