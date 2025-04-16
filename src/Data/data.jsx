@@ -222,7 +222,7 @@ export const projects = [
 export const experienceElements = [
   {
     id: 1,
-    title: "Frontend React Developer",
+    title: "Web Developer",
     company: "Nishar India",
     location: "Raipur,Chhattisgarh",
     description:
