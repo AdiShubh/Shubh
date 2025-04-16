@@ -1,5 +1,5 @@
 export const resumeURL =
-  ""
+  "https://drive.google.com/file/d/1v3XuIsay_itumtfVEmSySyKnSF56kNb7/view?usp=sharing"
 export const Skills = [
   {
     name: "HTML",
