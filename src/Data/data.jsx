@@ -1,5 +1,4 @@
-export const resumeURL =
-  "https://drive.google.com/file/d/1v3XuIsay_itumtfVEmSySyKnSF56kNb7/view?usp=sharing"
+export const resumeURL = "https://drive.google.com/file/d/1v3XuIsay_itumtfVEmSySyKnSF56kNb7/view?usp=sharing"
 export const Skills = [
   {
     name: "HTML",
@@ -70,7 +69,7 @@ export const projects = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     image:
       "https://res.cloudinary.com/myblogs/image/upload/v1744720987/TechInfuse_re3qry.png",
-    link: "",
+    link: "https://techinfuse.netlify.app/",
     tech: [
       {
         name: "React JS",
