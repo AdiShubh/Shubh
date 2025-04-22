@@ -8,8 +8,13 @@ import ContactSection from "./Components/ContactSection";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import NeonCursor from "./Components/ui/NeonCursor";
+import ReactGA from "react-ga4";
 
 function App() {
+  useEffect(() => {
+    ReactGA.initialize("G-XXXXXXXXXX"); // Replace with your actual ID
+    ReactGA.send("pageview");
+  }, []);
   return (
     <>
       <Navbar />
