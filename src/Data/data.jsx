@@ -1,4 +1,5 @@
-export const resumeURL = "https://drive.google.com/file/d/1v3XuIsay_itumtfVEmSySyKnSF56kNb7/view?usp=sharing"
+export const resumeURL =
+  "https://drive.google.com/file/d/1v3XuIsay_itumtfVEmSySyKnSF56kNb7/view?usp=sharing";
 export const Skills = [
   {
     name: "HTML",
@@ -69,7 +70,8 @@ export const projects = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     image:
       "https://res.cloudinary.com/myblogs/image/upload/v1744720987/TechInfuse_re3qry.png",
-    link: "https://techinfuse.netlify.app/",
+    weblink: "https://techinfuse.netlify.app/",
+    githubLink: "https://github.com/AdiShubh/TechInfuse-Frontend",
     tech: [
       {
         name: "React JS",
@@ -109,7 +111,8 @@ export const projects = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     image:
       "https://res.cloudinary.com/myblogs/image/upload/v1732471195/Foodeo_dc951a.png",
-    link: "https://foodeo.netlify.app/",
+    weblink: "https://foodeo.netlify.app/",
+    githubLink: "",
     tech: [
       {
         name: "React JS",
@@ -146,7 +149,8 @@ export const projects = [
 
     image:
       "https://res.cloudinary.com/myblogs/image/upload/v1732471420/Shubham-11-24-2024_11_33_PM_zjwdz1.png",
-    link: "https://aadishubhportfolio.netlify.app/",
+    weblink: "https://aadishubhportfolio.netlify.app/",
+    githubLink: "",
     tech: [
       {
         name: "React",
@@ -164,7 +168,8 @@ export const projects = [
     description: "Food Delivery App",
     image:
       "https://res.cloudinary.com/myblogs/image/upload/v1732471582/Project-11-24-2024_11_35_PM_jmodgn.png",
-    link: "https://materiallandingpage.netlify.app/",
+    weblink: "https://materiallandingpage.netlify.app/",
+    githubLink: "",
     tech: [
       {
         name: "React",
@@ -182,7 +187,8 @@ export const projects = [
     description: "Food Delivery App",
     image:
       "https://res.cloudinary.com/myblogs/image/upload/v1734462864/Portfolio-12-18-2024_12_43_AM_v9kwam.png",
-    link: "https://shubhamchourasiaportfolio.netlify.app/",
+    weblink: "https://shubhamchourasiaportfolio.netlify.app/",
+    githubLink: "",
     tech: [
       {
         name: "React",

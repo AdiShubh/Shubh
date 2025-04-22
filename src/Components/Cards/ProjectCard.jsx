@@ -24,12 +24,15 @@ const ProjectCard = ({ project, className }) => {
       </p> */}
       <div className="flex justify-center gap-8">
         <button
-          onClick={() => window.open(project.link, "_blank")}
+          onClick={() => window.open(project.weblink, "_blank")}
           className=" border-2 border-yellow-300 rounded-3xl   hover:bg-yellow-300 hover:text-white hover:font-semibold text-gray-700 px-4 py-2 w-40  mt-4"
         >
           Live Demo
         </button>
-        <button className="border-2 border-yellow-300 hover:bg-yellow-300 hover:text-white hover:font-semibold text-gray-700 px-4 py-2 w-40  mt-4 rounded-3xl">
+        <button
+          onClick={() => window.open(project.githubLink, "_blank")}
+          className="border-2 border-yellow-300 hover:bg-yellow-300 hover:text-white hover:font-semibold text-gray-700 px-4 py-2 w-40  mt-4 rounded-3xl"
+        >
           Github
         </button>
       </div>
