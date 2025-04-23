@@ -1,4 +1,5 @@
 import "./App.css";
+import { useEffect } from "react";
 import HeroSection from "./Components/HeroSection";
 import SkillsSection from "./Components/SkillsSection";
 import ProjectsSection from "./Components/ProjectsSection";

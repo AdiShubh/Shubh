@@ -9,7 +9,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 const ExperienceSection = () => {
-  console.log(experienceElements);
+  //console.log(experienceElements);
   return (
     <section id="experience" className="bg-gray-100 py-5 ">
       <div className="container mx-auto  p-2">
@@ -45,7 +45,6 @@ const ExperienceSection = () => {
                 <h5 className="vertical-timeline-element-subtitle">
                   {experience.location}
                 </h5>
-                {/* <p id="description">{experience.description}</p> */}
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>

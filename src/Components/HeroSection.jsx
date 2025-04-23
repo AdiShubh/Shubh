@@ -19,7 +19,7 @@ const HeroSection = () => {
                 Hi there, I'm{" "}
               </h1>
 
-              <p className="text-6xl text-gray-700  font-semibold mb-4">
+              <div className="text-6xl text-gray-700  font-semibold mb-4">
                 <Typewriter
                   options={{
                     strings: ["Shubham Chourasia"],
@@ -28,7 +28,7 @@ const HeroSection = () => {
                     delay: 100,
                   }}
                 />
-              </p>
+              </div>
 
               <p className=" text-2xl mt-2  mb-2 text-gray-500">
                 A passionate
@@ -48,11 +48,6 @@ const HeroSection = () => {
               </a>
             </div>
             <div className="md:mr-8 mx-auto  md:w-[40%]   ">
-              {/* <img
-                src="profileimg02.png"
-                alt="Your Image"
-                className="rounded-[30%_70%_70%_30%/_30%_30%_70%_70%] border-4  w-[87%]  bg-yellow-200 z-50   border-yellow-500"
-              /> */}
               <IconCloud iconSlugs={slugs} />
             </div>
           </div>
