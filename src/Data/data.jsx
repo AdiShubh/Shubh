@@ -1,5 +1,5 @@
 export const resumeURL =
-  "https://drive.google.com/file/d/1v3XuIsay_itumtfVEmSySyKnSF56kNb7/view?usp=sharing";
+  "https://drive.google.com/file/d/1UkuR1H-_HQ3hQXpANGi8efBU8RCRtwha/view?usp=sharing";
 export const Skills = [
   {
     name: "HTML",
@@ -65,6 +65,47 @@ export const Skills = [
 export const projects = [
   {
     id: "1",
+    name: "NisharAssure",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    image:
+      "https://res.cloudinary.com/myblogs/image/upload/v1762144349/Screenshot_3-11-2025_1012_localhost_swbbc8.jpg",
+    weblink: "",
+    githubLink: "",
+    tech: [
+      {
+        name: "React JS",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729328002/icons/reactjs_wysoiz.svg",
+      },
+      {
+        name: "Tailwind CSS",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729329628/icons/tailwind-removebg-preview_irq1it.png",
+      },
+      {
+        name: "Mongo DB",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1744721532/icons8-mongodb-96_q8vvlq.png",
+      },
+      {
+        name: "Express JS",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1744720354/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo-removebg-preview_yltwzy.png",
+      },
+      {
+        name: "Redux Toolkit Query",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1729329800/icons/redux.492ed7d54dd2352c5786_o1azfn.png",
+      },
+
+      {
+        name: "JWT",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1744721458/jwt-flower_xq6sb0.webp",
+      },
+      {
+        name: "Shadcn UI",
+        icon: "https://res.cloudinary.com/myblogs/image/upload/v1762145727/shadcn-ui-seeklogo_led0aw.png",
+      },
+    ],
+  },
+  {
+    id: "6",
     name: "TechInfuse",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
