@@ -112,7 +112,7 @@ export const projects = [
     image:
       "https://res.cloudinary.com/myblogs/image/upload/v1744720987/TechInfuse_re3qry.png",
     weblink: "https://techinfuse.netlify.app/",
-    githubLink: "https://github.com/AdiShubh/TechInfuse-Frontend",
+    githubLink: "",
     tech: [
       {
         name: "React JS",
